@@ -38,8 +38,8 @@ Source your bash profile.
 Verify Cassandra installation.
 
     cassandra -v
-    expected output:
-    3.5
+expected output:
+3.5
 
 
 ### Note
