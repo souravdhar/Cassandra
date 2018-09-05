@@ -35,14 +35,14 @@ This may not be a realistic example to install cassanda locally and run local cl
     source ~/.bash_profile
 
 
-7. Verify Cassandra installation.
+### Verify Cassandra installation.
 
     cassandra -v
     expected output:
     3.5
 
 
-## Note
+### Note
 If you have previous Cassandra installation which is not removed properly from .cassandra folder delete it accordingly before starting Cassandra
 
     rm -rf ./cassandra
