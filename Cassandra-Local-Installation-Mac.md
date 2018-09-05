@@ -1,3 +1,6 @@
+# STEPS TO INSTALL CASSANDRA LOCALLY IN MAC
+
+This may not be a realistic example to install cassanda locally and run local cluster but sometime for demo purpose you may need this setup. This document will quickly help to achieve that.
 
 1. Create local directory where you need to keep your Cassandra Binaries
 
@@ -25,7 +28,6 @@ vi ~/.bash_profile
 
 5. Now add the following to the bash profile file.
 
-# Cassandra
 if [ -d "$HOME/opt/cassandra" ]; then
     export PATH="$PATH:$HOME/opt/cassandra/bin"
 fi
@@ -39,10 +41,11 @@ source ~/.bash_profile
 7. Verify Cassandra installation.
 
 cassandra -v
-# expected output:
-# 3.5
+expected output:
+3.5
 
 
-Note: If you have previous Cassandra installation which is not removed properly from .cassandra folder delete it accordingly before starting Cassandra
+## Note
+If you have previous Cassandra installation which is not removed properly from .cassandra folder delete it accordingly before starting Cassandra
 
 rm -rf ./cassandra
